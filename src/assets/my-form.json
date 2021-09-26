@@ -1,0 +1,62 @@
+[
+  {
+    "name": "firstName",
+    "label": "First name:",
+    "value": "",
+    "type": "input",
+    "validators": {}
+  },
+  {
+    "name": "lastName",
+    "label": "Last name:",
+    "value": "",
+    "type": "input",
+    "validators": {}
+  },
+  {
+    "name": "comments",
+    "label": "Comments",
+    "value": "",
+    "type": "input",
+    "validators": {}
+  },
+  {
+    "name": "dateOfBirth",
+    "label": "Date of Birth",
+    "value": "",
+    "type": "date",
+    "validators": {}
+  },
+  {
+    "name": "optionSelect",
+    "label": "Options select",
+    "value": "",
+    "type": "select",
+    "validators": {},
+    "options": [
+      {
+        "key": "solid",
+        "value": "Solid"
+      },
+      {
+        "key": "great",
+        "value": "Great"
+      },
+      {
+        "key": "good",
+        "value": "Good"
+      },
+      {
+        "key": "unproven",
+        "value": "Unproven"
+      }
+    ]
+  },
+  {
+    "name": "submitForm",
+    "label": "Submit",
+    "value": "",
+    "type": "button",
+    "validators": {}
+  }
+]
