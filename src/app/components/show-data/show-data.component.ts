@@ -1,4 +1,4 @@
-import { Component, Input, OnInit, Output, EventEmitter, OnChanges, SimpleChanges } from "@angular/core";
+import { Component, Input, Output, EventEmitter, OnChanges, SimpleChanges } from "@angular/core";
 import { FormBuilder, FormGroup } from "@angular/forms";
 import { JsonData } from "src/model/field.interface";
 
@@ -24,7 +24,6 @@ export class ShowDataComponent implements OnChanges {
     }
   }
 
-
   createForm(fields: JsonData[]) {
     const group = this.fb.group({});
     fields.forEach(element => {
@@ -42,6 +41,7 @@ export class ShowDataComponent implements OnChanges {
       this.submit.emit(this.form.value);
     }
   }
+
   // bindValidations(validations: any) {
   //     if (validations.length > 0) {
   //       const validList = [];

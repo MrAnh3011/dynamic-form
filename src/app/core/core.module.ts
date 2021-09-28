@@ -11,6 +11,8 @@ import { MatNativeDateModule } from '@angular/material/core';
 import { MatMomentDateModule } from '@angular/material-moment-adapter';
 import { MatSelectModule } from '@angular/material/select';
 import { MatTableModule } from '@angular/material/table';
+import { MatIconModule } from '@angular/material/icon';
+import { MatDialogModule } from '@angular/material/dialog';
 
 import { ButtonComponent } from './button/button.component';
 import { DateComponent } from './datetime/datetime.component';
@@ -34,6 +36,8 @@ import { SelectComponent } from './select/select.component';
     MatInputModule,
     MatSelectModule,
     MatTableModule,
+    MatIconModule,
+    MatDialogModule,
     ReactiveFormsModule,
     FormsModule,
   ],
@@ -50,6 +54,8 @@ import { SelectComponent } from './select/select.component';
     MatInputModule,
     MatSelectModule,
     MatTableModule,
+    MatIconModule,
+    MatDialogModule,
     ReactiveFormsModule,
     FormsModule,
   ],

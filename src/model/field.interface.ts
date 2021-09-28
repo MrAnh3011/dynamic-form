@@ -15,6 +15,7 @@ export interface Validator {
 }
 
 export interface ReturnData {
+  id: number;
   firstName: string;
   lastName:string;
   comments: string;

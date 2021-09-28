@@ -5,10 +5,11 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { ShowDataComponent } from './components/show-data/show-data.component';
+import { EditDataComponent } from './components/edit-data/edit-data.component';
 import { DynamicFieldDirective } from './components/dynamic-field/dynamic-field.directive';
 
 @NgModule({
-  declarations: [AppComponent, ShowDataComponent, DynamicFieldDirective],
+  declarations: [AppComponent, ShowDataComponent, EditDataComponent , DynamicFieldDirective],
   imports: [CoreModule, HttpClientModule, BrowserAnimationsModule],
   providers: [],
   bootstrap: [AppComponent],
