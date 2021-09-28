@@ -1,3 +1,4 @@
+
 export interface JsonData {
     name: string;
     label: string;
@@ -11,4 +12,12 @@ export interface Validator {
     name: string;
     validator: any;
     message: string;
+}
+
+export interface ReturnData {
+  firstName: string;
+  lastName:string;
+  comments: string;
+  dateOfBirth: Date;
+  optionSelect: string;
 }

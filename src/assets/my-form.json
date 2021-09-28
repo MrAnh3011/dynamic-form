@@ -1,14 +1,14 @@
 [
   {
     "name": "firstName",
-    "label": "First name:",
+    "label": "First name",
     "value": "",
     "type": "input",
     "validators": {}
   },
   {
     "name": "lastName",
-    "label": "Last name:",
+    "label": "Last name",
     "value": "",
     "type": "input",
     "validators": {}
